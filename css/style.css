@@ -1,0 +1,39 @@
+ * {
+    padding: 0%;
+    margin: 0%;
+    }
+
+    body {
+        background: linear-gradient(-80deg,rgb(245, 117, 32), #ebc41a91), #e7cb29;
+    }
+
+    form>label {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 94vh;
+        border: 2px solid black;
+    }
+
+    .form-box {
+        display: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 40%;
+        
+    }
+
+    form {
+        display: flex;
+        padding: 24px;  /*coloca elementos lado a lado*/
+        align-items: start; /* Alinha elementos acima à esquerda*/
+        flex-wrap: wrap; /*organiza elementos para caber dentro do container, que neste caso é a form-box*/
+    }
+
