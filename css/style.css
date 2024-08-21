@@ -26,17 +26,15 @@
     }
 
     .form-box {
-        display: center;
-        flex-direction: column;
-        align-items: center;
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
-        width: 40%;
-        height: 70vh;
-        
+        width: 50%;
+        height: 90vh;
     }
 
     form {
+        display: flex;
+        align-items: center;
         display: flex;
         padding: 24px;  /*coloca elementos lado a lado*/
         align-items: start; /* Alinha elementos acima à esquerda*/
@@ -44,6 +42,10 @@
     }
 
     .campo {
-        display: inline-block;
+        width: 100%;
+        padding: 20px 0px 20px ;
+    }
 
+    input {
+        border-radius: 8px;
     }
