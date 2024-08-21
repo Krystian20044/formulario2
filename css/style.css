@@ -29,7 +29,8 @@
         background-color: rgb(255, 255, 255);
         border-radius: 5px;
         width: 50%;
-        height: 90vh;
+        height: 100vh;
+        display: block;
     }
 
     form {
